@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: ${REPOSITORY_TAG}
+        image: 817421948276.dkr.ecr.us-east-2.amazonaws.com/gs-rest-service:12
         ports:
         - containerPort: 8080
 ---
