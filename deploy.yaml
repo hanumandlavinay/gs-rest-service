@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: ${ECR_URI}:${BUILD_ID}
+        image: ${REPOSITORY_TAG}
         ports:
         - containerPort: 8080
 ---
